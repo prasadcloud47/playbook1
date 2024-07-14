@@ -1,0 +1,6 @@
+---
+- name: Print date
+  hosts: web1
+  tasks:
+  - name: Excecute date command on web servers
+    command: date
